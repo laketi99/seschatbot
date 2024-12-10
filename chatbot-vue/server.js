@@ -14,7 +14,7 @@ const upload = multer({ dest: "uploads/" });
 
 // OpenAI API setup
 const configuration = new Configuration({
-    apiKey: "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", // Replace with your actual OpenAI API key
+    apiKey: "", // Replace with your actual OpenAI API key
 });
 const openai = new OpenAIApi(configuration);
 
